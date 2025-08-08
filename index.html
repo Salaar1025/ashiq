@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashiq Mobiles & Electronics</title>
+    <meta name="description" content="Cutting-edge mobile devices and electronics, delivered with a futuristic experience">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="modern-bg"></div>
+    <main>
+        <canvas id="particles-bg"></canvas>
+        <!-- Home Section -->
+        <section class="home-section" id="home">
+            <div class="home-content">
+                <span class="home-accent-glow"></span>
+                <!-- Owner Photo -->
+                <div class="owner-photo-animated-container">
+                    <div class="owner-photo-container">
+                        <img src="assets/your-logo.png" alt="Shop Owner" class="owner-photo">
+                        <div class="owner-photo-frame"></div>
+                        <div class="owner-photo-glow"></div>
+                    </div>
+                </div>
+                <!-- Animated Brand Title -->
+                <div class="home-title-box">
+                    <h1 class="brand-name animated-title">
+                        <span class="brand-part">Ashiq</span>
+                        <span class="brand-part highlight">Mobiles</span>
+                        <span class="brand-part">&</span>
+                        <span class="brand-part highlight">Electronics</span>
+                    </h1>
+                    <div class="home-subtitle animated-subtitle">
+                        <span id="dynamic-text"></span>
+                        <span class="sub-cursor">█</span>
+                    </div>
+                </div>
+                <div class="home-cta-row">
+                    <a href="#featured" class="home-cta main-cta">Shop Now</a>
+                    <a href="#location" class="home-cta ghost-cta">Visit Us</a>
+                </div>
+                <div class="brands-marquee" id="brands-marquee">
+                        <div class="brand-icon"><img src="assets/brands/apple.png" alt="Apple"></div>
+                        <div class="brand-icon"><img src="assets/brands/samsung.png" alt="Samsung"></div>
+                        <div class="brand-icon"><img src="assets/brands/vivo.png" alt="Vivo"></div>
+                        <div class="brand-icon"><img src="assets/brands/xiaomi.png" alt="Xiaomi"></div>
+                        <div class="brand-icon"><img src="assets/brands/oppo.png" alt="Oppo"></div>
+                        <div class="brand-icon"><img src="assets/brands/huawei.png" alt="Huawei"></div>
+                        <!-- Duplicate for infinity -->
+                        <div class="brand-icon"><img src="assets/brands/apple.png" alt="Apple"></div>
+                        <div class="brand-icon"><img src="assets/brands/samsung.png" alt="Samsung"></div>
+                        <div class="brand-icon"><img src="assets/brands/vivo.png" alt="Vivo"></div>
+                        <div class="brand-icon"><img src="assets/brands/xiaomi.png" alt="Xiaomi"></div>
+                        <div class="brand-icon"><img src="assets/brands/oppo.png" alt="Oppo"></div>
+                        <div class="brand-icon"><img src="assets/brands/huawei.png" alt="Huawei"></div>
+                    </div>
+            </div>
+        </section>
+
+        <!-- Featured Products Section -->
+        <section class="featured-modern" id="featured">
+            <div class="featured-header">
+                <h2>Featured Products</h2>
+                <div class="featured-sub">Scroll to explore our best picks</div>
+            </div>
+            <div class="featured-products-scroll responsive-grid" id="featured-scroll">
+                <div class="product-modern">
+                    <div class="product-img-box">
+                        <img src="https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?auto=format&fit=crop&w=440&q=80" alt="Latest Smartphones">
+                    </div>
+                    <div class="product-info">
+                        <h3>Latest Smartphones</h3>
+                        <div class="product-tags">
+                            <span>Flagship</span>
+                            <span>5G</span>
+                        </div>
+                        <p>Experience the next-gen mobile tech.</p>
+                    </div>
+                </div>
+                <div class="product-modern">
+                    <div class="product-img-box">
+                        <img src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=440&q=80" alt="Premium Accessories">
+                    </div>
+                    <div class="product-info">
+                        <h3>Premium Accessories</h3>
+                        <div class="product-tags">
+                            <span>Wireless</span>
+                            <span>Durable</span>
+                        </div>
+                        <p>Enhance your devices with style & protection.</p>
+                    </div>
+                </div>
+                <div class="product-modern">
+                    <div class="product-img-box">
+                        <img src="https://images.unsplash.com/photo-1546054454-aa26e2b734c7?auto=format&fit=crop&w=440&q=80" alt="Quality Electronics">
+                    </div>
+                    <div class="product-info">
+                        <h3>Quality Electronics</h3>
+                        <div class="product-tags">
+                            <span>Smart</span>
+                            <span>Efficient</span>
+                        </div>
+                        <p>Gadgets and tech for every lifestyle.</p>
+                    </div>
+                </div>
+                <div class="product-modern">
+                    <div class="product-img-box">
+                        <img src="https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=440&q=80" alt="Gaming Consoles">
+                    </div>
+                    <div class="product-info">
+                        <h3>Gaming Consoles</h3>
+                        <div class="product-tags">
+                            <span>4K</span>
+                            <span>Next-Gen</span>
+                        </div>
+                        <p>Play beyond limits with the latest consoles.</p>
+                    </div>
+                </div>
+                <div class="product-modern">
+                    <div class="product-img-box">
+                        <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=440&q=80" alt="Smart Audio">
+                    </div>
+                    <div class="product-info">
+                        <h3>Smart Audio</h3>
+                        <div class="product-tags">
+                            <span>Bluetooth</span>
+                            <span>Hi-Fi</span>
+                        </div>
+                        <p>Immersive sound for music lovers.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-hint"><span>⇆</span> Side scroll to browse</div>
+        </section>
+
+        <!-- Location Section -->
+        <section class="location-modern" id="location">
+            <div class="location-header">
+                <h2>Visit Us</h2>
+                <p>Alamgir Rd, Krishan Nagar Lahore, 54000</p>
+            </div>
+            <div class="location-body">
+                <div class="location-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3408.253955957614!2d74.2898303150966!3d31.56448408133491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191d54de0861f5%3A0x3f682d778c3e9090!2sAshiq%20Mobile%20and%20Electronics!5e0!3m2!1sen!2s!4v1620000000000!5m2!1sen!2s" allowfullscreen="" loading="lazy" title="Our Location on Google Maps"></iframe>
+                </div>
+                <div class="location-info-modern">
+                    <div>
+                        <strong>Our Address:</strong> <br>Alamgir Rd, Krishan Nagar Lahore, 54000, Pakistan
+                    </div>
+                    <div>
+                        <strong>Opening Hours:</strong> <br>12:00 PM - 3:00 AM
+                    </div>
+                    <div>
+                        <strong>Contact:</strong> <br>+92 324 4900277
+                    </div>
+                    <div class="location-socials">
+                        <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/923244900277" class="whatsapp-btn" target="_blank" title="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span>Contact Us</span>
+    </a>
+    <button class="scroll-top-btn" id="scrollTopBtn" title="Back to top"><i class="fas fa-arrow-up"></i></button>
+    <script src="script.js"></script>
+</body>
+</html>
